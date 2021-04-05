@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    "schedule:earlyMondays"
+  ],
+  "prCreation": "not-pending",
+  "packageRules": [{
+      "matchPackagePatterns": ["eslint"],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackagePatterns": ["axios"],
+      "groupName": "axios"
+    }
+  ]
+}
