@@ -6,12 +6,20 @@
   ],
   "prCreation": "not-pending",
   "packageRules": [{
+      "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["eslint"],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "automerge": true
     },
     {
       "matchPackagePatterns": ["axios"],
       "groupName": "axios"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePatterns": ["prettier"],
+      "groupName": "prettier",
+      "automerge": true
     }
   ]
 }
