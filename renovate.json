@@ -8,8 +8,7 @@
   "packageRules": [{
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["eslint"],
-      "groupName": "eslint",
-      "automerge": true
+      "groupName": "eslint"
     },
     {
       "matchPackagePatterns": ["axios"],
@@ -18,8 +17,7 @@
     {
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["prettier"],
-      "groupName": "prettier",
-      "automerge": true
+      "groupName": "prettier"
     }
   ]
 }
