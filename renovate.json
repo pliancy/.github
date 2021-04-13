@@ -19,7 +19,6 @@
       "groupName": "prettier"
     }
   ],
-  // beta feature
   "docker-compose": {
     "enabled": true
   }
