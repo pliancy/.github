@@ -8,7 +8,6 @@
     "packages:linters"
   ],
   "packageRules": [{
-      "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["eslint"],
       "groupName": "eslint"
     },
@@ -17,10 +16,9 @@
       "groupName": "axios"
     },
     {
-      "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["prettier"],
       "groupName": "prettier"
-    },
+    }
   ],
   "docker-compose": {
     "enabled": true
