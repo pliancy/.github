@@ -2,7 +2,10 @@
   "extends": [
     "config:base",
     "group:allNonMajor",
-    "schedule:earlyMondays"
+    "schedule:earlyMondays",
+    "packages:test",
+    "packages:googleapis",
+    "packages:linters"
   ],
   "packageRules": [{
       "matchDepTypes": ["devDependencies"],
@@ -17,7 +20,7 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["prettier"],
       "groupName": "prettier"
-    }
+    },
   ],
   "docker-compose": {
     "enabled": true
