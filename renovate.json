@@ -5,7 +5,8 @@
     "schedule:earlyMondays",
     "packages:test",
     "packages:googleapis",
-    "packages:linters"
+    "packages:linters",
+    "helpers:pinGitHubActionDigests"
   ],
   "packageRules": [{
       "matchPackagePatterns": ["eslint"],
